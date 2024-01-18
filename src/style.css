@@ -1,0 +1,68 @@
+.viewer-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navigation-button {
+  position: absolute;
+  font-size: 18px;
+  font-weight: bold;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+/* Next button styles */
+.next-button {
+  right: 10px;
+  transform: translateY(-50%);
+  color: #fff; /* Change the color to white */
+}
+
+/* Prev button styles */
+.prev-button {
+  left: 10px;
+  transform: translateY(-50%);
+  color: #fff; /* Change the color to white */
+}
+
+/* Disable styles for disabled buttons */
+.navigation-button.disabled {
+  color: rgba(255, 255, 255, 0.5);
+  cursor: default;
+}
+.displayed-image {
+  max-width: 90%;
+  max-height: 90%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.thumbnail {
+  width: 180px;
+  margin: 2px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.thumbnail.selected {
+  border: 2px solid #007bff;
+}
