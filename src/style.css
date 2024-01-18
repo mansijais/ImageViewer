@@ -35,14 +35,13 @@
 .next-button {
   right: 10px;
   transform: translateY(-50%);
-  color: #fff; /* Change the color to white */
+  color: #fff; 
 }
-
 /* Prev button styles */
 .prev-button {
   left: 10px;
   transform: translateY(-50%);
-  color: #fff; /* Change the color to white */
+  color: #fff; 
 }
 
 /* Disable styles for disabled buttons */
