@@ -11,6 +11,7 @@
   justify-content: center;
 }
 
+  
 .close-button {
   position: absolute;
   top: 10px;
@@ -31,20 +32,21 @@
   border: none;
   cursor: pointer;
 }
-/* Next button styles */
+
+
+
 .next-button {
   right: 10px;
   transform: translateY(-50%);
   color: #fff; 
 }
-/* Prev button styles */
 .prev-button {
   left: 10px;
   transform: translateY(-50%);
   color: #fff; 
 }
 
-/* Disable styles for disabled buttons */
+
 .navigation-button.disabled {
   color: rgba(255, 255, 255, 0.5);
   cursor: default;
@@ -63,5 +65,7 @@
 }
 
 .thumbnail.selected {
-  border: 2px solid #007bff;
+  border: 3px solid #b91313;
 }
+
+
